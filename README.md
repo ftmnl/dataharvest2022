@@ -15,8 +15,7 @@ Goal: Map all coal power plants and their energy output in your country and comp
 Steps:
 1. Data is from Resource Watch. You can find the data (csv) [here](https://github.com/ftmnl/dataharvest2022/tree/main/data/global_power_plant_database_v_1_3).
 2. Import csv and use lat and lon columns to make your data spatial.
-3a. Import country administrative borders geodatabase [here](https://github.com/ftmnl/dataharvest2022/tree/main/data/WB_Boundaries.gdb).
-3b. OR, import US states boundaries here (be mindful of the coordinate reference system!)
+3. Import country administrative borders geodatabase [here](https://github.com/ftmnl/dataharvest2022/tree/main/data/WB_Boundaries.gdb) OR, import US states boundaries [here](https://github.com/ftmnl/dataharvest2022/tree/main/data/cb_2017_us_state_20m) (be mindful of the coordinate reference system!)
 5. Filter powerplants by GWh in 2013 and 2019 (not null values).
 6. You can choose to export the csv files and perform your calculation there or use the field calculator provided by QGIS.
 7. Map the difference: for instance, join the results of the calculation from the previous step. 
