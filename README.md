@@ -4,7 +4,7 @@
 
 Goal: Map all coal power plants and their energy output in the US and show the difference in output between 2013 and 2019 on a choropleth map.
 
-###Steps:
+### Steps:
 1. Data is from Resource Watch and the US census bureau. You can find the data [here](https://github.com/ftmnl/dataharvest2022/blob/main/data/dataharvest.zip) .
 2. Import csv with the QGIS Data Source Manager (button with three squares in red, yellow and blue) and use lat and lon columns to make your data spatial.
 3. Filter powerplants by GWh in 2013 and 2019. Right click on coal plant layer, use filter and enter this code "generated_gwh_2013" != 'NULL' AND "generated_gwh_2019" != 'NULL'.
